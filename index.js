@@ -12,8 +12,8 @@ app.use('/process_get', function handleProcessGet(request, response){
 	response.send(JSON.stringify(retVal));
 });
 
-var server = app.listen(300, function ServerListener() {
+var server = app.listen(3000, function ServerListener() {
 	var host = server.address().address;
 	var port = server.address().port;
-	console.log("Usisng Forms and Express, listening at http://%$:%$",host,port);
+	console.log("Usisng Forms and Express, listening at http://%s:%s",host,port);
 });

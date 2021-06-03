@@ -6,7 +6,7 @@ app.use(express.static('public'));
 app.use('/process_get', function handleProcessGet(request, response){
 	retVal = {
 		firstName: request.query.firstName,
-		lastName: request.query.lastName
+		favBook: request.query.favBook
 	};
 	console.log(retVal);
 	response.send(JSON.stringify(retVal));

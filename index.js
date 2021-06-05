@@ -4,14 +4,14 @@ var app = express();
 app.use(express.static('public'));
 
 app.use('/process_get', function handleProcessGet(request, response){
-	let num = document.getElementById('rate');
-	if(num < 2){
-		//put an x somehow
-		break;
-	}
-	else if(){
-		
-	}
+	// let num = document.getElementById('rate');
+	// if(num < 2){
+	// 	//put an x somehow
+	// 	break;
+	// }
+	// else if(){
+	//
+	// }
 	retVal = {
 		// get the number
 		// smaller than 2 x and stay

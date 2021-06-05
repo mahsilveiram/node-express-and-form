@@ -12,7 +12,7 @@ app.use('/process_get', function handleProcessGet(request, response){
 		//else output in the result page its prime factors
 		// firstName: request.query.firstName,
 		// favBook: request.query.favBook
-		request.query.rate
+		rate: request.query.rate
 	};
 	console.log(retVal);
 	response.send(JSON.stringify(retVal));

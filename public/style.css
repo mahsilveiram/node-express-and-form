@@ -3,6 +3,16 @@ body{
   background-color: antiquewhite;
   color: hotpink;
   padding: 40px;
-  margin: auto 90px;
+  /*margin: auto 90px; */
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.red{
+  color: #ff0000;
 }

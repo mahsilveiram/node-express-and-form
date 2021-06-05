@@ -5,8 +5,14 @@ app.use(express.static('public'));
 
 app.use('/process_get', function handleProcessGet(request, response){
 	retVal = {
-		firstName: request.query.firstName,
-		favBook: request.query.favBook
+		// get the number
+		// smaller than 2 x and stay
+		//else check and
+		// if prime another page says is prime -> uses routes
+		//else output in the result page its prime factors
+		// firstName: request.query.firstName,
+		// favBook: request.query.favBook
+		rate: request.query.rate
 	};
 	console.log(retVal);
 	response.send(JSON.stringify(retVal));
